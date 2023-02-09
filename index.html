@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+	<script src="js/html5shiv.js"></script>
+    <title>Museu Nacional</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="logo">
+                <h1><a href="">Museu Nacional</a></h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">exposições</a></li>
+                    <li><a href="#">pesquisa</a></li>
+                    <li><a href="#">acervo</a></li>
+                    <li><a href="#">vídeos</a></li>
+                    <li><a href="#">fotos</a></li>
+                    <li><a href="#">contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="principal">
+
+            <div id="conteudo">
+
+                <section id="capa">
+                    <img src="img/museu.png">
+                </section>
+
+                <section id="postagens">
+
+                    <article id="video">
+                        <h3>Vídeo: conheça o museu</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/dO6fHL1gEcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </article>
+
+                    <article id="mapa">
+                        <h3>Mapa: encontre o museu</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.899322543657!2d-0.17855588423042754!3d51.496714979633325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760542e6182f3f%3A0x7bb7e385c39764c4!2sMuseu%20de%20Hist%C3%B3ria%20Natural%20de%20Londres!5e0!3m2!1spt-BR!2sbr!4v1675926781182!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </article>
+
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li><a href="#">Dinossauros: Conheça o rugido T. rex</a></li>
+                            <li><a href="#">Invertebrados Marinhos</a></li>
+                            <li><a href="">Fósseis da Grã-Bretanha</a></li>
+                            <li><a href="">O cofre: Veja um pedaço do <em>meteorito Winchcombe</em></a></li>
+                            <li><a href="">Evolução humana</a></li>
+                            <li><a href="">Vulcões e Terremotos</a></li>
+                            <a href="#"><strong>Veja todos (65)</strong></a>
+                        </ul>
+                    </article>
+
+                    <article id="origem">
+                        <h3>Origem do museu</h3>
+                        <p>
+                            O museu foi construído entre 1873 e 1880 para receber uma grande coleção de esqueletos, fósseis e plantas que até então formava parte do Museu Britânico. Ano após ano, a coleção do museu foi crescendo e em 1986 absorveu o Museu Geológico, que estava nas redondezas. Atualmente possui uma extensa coleção composta por mais de 70 milhões de espécies e objetos relacionados com o mundo natural.
+                            <br>
+                            
+                        </p>
+                        <a href="#"><strong>Leia mais</strong></a>
+                    </article>
+                </section>
+            </div>
+    
+            <aside>
+                <section id="depoimento">
+                    <img src="img/depoimento.png">
+                </section>
+
+                <section id="visita">
+                    <h3>Faça uma visita</h3>
+                    <form>
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                            <label for="qtd">Qtd pessoas</label>
+                            <input class="campo" type="text" id="qtd" value="1" style="width: 30px">
+                        </fieldset>
+
+                        <input class="botao" type="submit" value="Verificar disponibilidade">
+                    </form>
+                </section>
+
+                <section id="galeria">
+                    <h3>Galeria de fotos</h3>
+
+                    <a href="#">
+                        <img src="img/imagem1.jpg" alt="" width="93" height="93">
+                    </a>
+
+                    <a href="#">
+                        <img src="img/imagem2.jpg" width="93" height="93">
+                    </a>
+
+                    <a href="#">
+                        <img src="img/imagem3.jpg" width="93" height="93">
+                    </a>
+
+                    <a href="#">
+                        <img src="img/imagem4.jpg" width="93" height="93">
+                    </a>
+                </section>
+            </aside>
+            <footer>
+                <p>
+                    <a href="#">home</a>
+                    <a href="#">exposições</a>
+                    <a href="#">pesquisa</a>
+                    <a href="#">acervo</a>
+                    <a href="#">vídeos</a>
+                    <a href="#">fotos</a>
+                    <a href="#">contato</a>
+                </p>
+                <p>2023 <a href="#">Museu Nacional</a> - Todos os direitos reservados.</p>
+            </footer>
+        </div>
+    </div>   
+</body>
+</html>
